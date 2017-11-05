@@ -1,0 +1,14 @@
+{
+  "tf_minutes":{
+      "type": "float",
+      "label": "Simualtion duration (in minutes)",
+      "default": 0.5,
+      "description":"How long should the simulation run."
+  },
+  "rate":{
+      "type": "float",
+      "label": "Power decrease rate (%)",
+      "default": 5,
+      "description":"Power decrease ramp rate in percentage of total (42MW)"
+  }
+}
